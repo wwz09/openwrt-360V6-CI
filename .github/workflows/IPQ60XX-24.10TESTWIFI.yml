@@ -1,4 +1,4 @@
-name: IPQ60XX-24.10(TESTWIFI)
+name: IPQ60XX-24.10TESTWIFI
 
 on:
   workflow_dispatch:
@@ -14,7 +14,7 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: IPQ60XX-24.10(TESTWIFI)
+  FIRMWARE_TAG: IPQ60XX-24.10TESTWIFI
   TZ: Asia/Shanghai
 
 jobs:
