@@ -38,10 +38,11 @@ function git_sparse_clone() {
 }
 
 # 添加额外插件
+git_sparse_clone main https://github.com/wwz09/RAX3000MIPK  luci-app-wolplus op-filetransfer op-fileBrowser wall-luci luci-app-wechatpush
 git_sparse_clone main https://github.com/Lienol/openwrt-package  luci-app-control-webrestriction 
-# git_sparse_clone master https://github.com/kiddin9/openwrt-packages luci-app-parentcontrol
+git clone --depth=1 https://github.com/sirpdboy/luci-app-parentcontrol package/luci-app-parentcontrol
 git_sparse_clone main https://github.com/Lienol/openwrt-package luci-app-timecontrol
-git_sparse_clone main https://github.com/sirpdboy/sirpdboy-package luci-app-control-timewol
+# git_sparse_clone main https://github.com/sirpdboy/sirpdboy-package luci-app-control-timewol
 git_sparse_clone main https://github.com/ksong008/sirpdboy-package luci-app-control-weburl
 git clone --depth=1 https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhome
 git clone --depth=1 -b openwrt-18.06 https://github.com/tty228/luci-app-wechatpush package/luci-app-serverchan
