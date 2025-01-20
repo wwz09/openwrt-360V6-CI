@@ -38,16 +38,13 @@ function git_sparse_clone() {
 }
 
 # 添加额外插件
-git_sparse_clone main https://github.com/wwz09/RAX3000MIPK  luci-app-wolplus op-filetransfer op-fileBrowser  luci-app-wechatpush luci-app-vssr relevancea
-git_sparse_clone main https://github.com/wwz09/immo-packages  openwrt-passwall luci-app-openclash  luci-app-smartdns
+git_sparse_clone main https://github.com/wwz09/RAX3000MIPK  luci-app-wolplus op-filetransfer  luci-app-wechatpush luci-app-vssr relevancea luci-app-ikoolproxy
+git_sparse_clone main https://github.com/wwz09/immo-packages  openwrt-passwall luci-app-openclash  luci-app-smartdns luci-app-control-weburl luci-app-serverchan
 git_sparse_clone main https://github.com/Lienol/openwrt-package  luci-app-control-webrestriction 
 git clone --depth=1 https://github.com/sirpdboy/luci-app-parentcontrol package/luci-app-parentcontrol
 git_sparse_clone main https://github.com/Lienol/openwrt-package luci-app-timecontrol
 # git_sparse_clone main https://github.com/sirpdboy/sirpdboy-package luci-app-control-timewol
-git_sparse_clone main https://github.com/ksong008/sirpdboy-package luci-app-control-weburl
 git clone --depth=1 https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhome
-git clone --depth=1 -b openwrt-18.06 https://github.com/tty228/luci-app-wechatpush package/luci-app-serverchan
-git clone --depth=1 https://github.com/ilxp/luci-app-ikoolproxy package/luci-app-ikoolproxy
 git clone --depth=1 https://github.com/esirplayground/luci-app-poweroff package/luci-app-poweroff
 git clone --depth=1 https://github.com/destan19/OpenAppFilter package/OpenAppFilter
 git clone --depth=1 https://github.com/Jason6111/luci-app-netdata package/luci-app-netdata
