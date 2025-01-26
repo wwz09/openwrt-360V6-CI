@@ -38,7 +38,7 @@ function git_sparse_clone() {
 }
 
 # 添加额外插件
-git_sparse_clone main https://github.com/wwz09/RAX3000MIPK  luci-app-wolplus op-filetransfer  luci-app-wechatpush luci-app-vssr relevancea luci-app-ikoolproxy
+git_sparse_clone main https://github.com/wwz09/RAX3000MIPK  luci-app-wolplus op-filetransfer  luci-app-wechatpush  relevancea luci-app-ikoolproxy
 git_sparse_clone main https://github.com/wwz09/immo-packages  openwrt-passwall luci-app-openclash  luci-app-smartdns luci-app-control-weburl luci-app-serverchan
 git_sparse_clone main https://github.com/Lienol/openwrt-package  luci-app-control-webrestriction 
 git clone --depth=1 https://github.com/sirpdboy/luci-app-parentcontrol package/luci-app-parentcontrol
